@@ -1,0 +1,41 @@
+body {
+    background-image: url(../images/fundo.png);
+}
+
+.cabecalho {
+    text-align: center;
+}
+
+.cabecalho, h1 {
+    font-family: 'Frankest Serif';
+}
+
+.logofuturando {
+    width: 20%;
+}
+
+.vinteeduascartas {
+    width: 40%;
+    margin-left: 70px;
+}
+
+.buttonEbook {
+    position: absolute;
+    width: 100%;
+
+    background: url(../images/fundobutton.png);
+    border-radius: 50px;
+}
+
+footer {
+    background-color: #F5EAD2;
+    display: flexbox;
+}
+
+.futurandorodape, img {
+    width: 20%;
+}
+
+.rapcrodape, img {
+    width: 20%;
+}
