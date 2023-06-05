@@ -21,7 +21,26 @@ body {
     text-align: center;
 }
 
-.cabecalho, h1 {
+.titlefuturando {
+    font-family: frankest;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 65px;
+    color: #1C1B1B;
+}
+
+.cabecalhop {
+    font-family: caecilians;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #5B5E49;
+}
+
+.beneficios--title {
     font-family: caecilians;
 }
 
@@ -60,11 +79,20 @@ body {
     margin-bottom: 50px;
 }
 
+.beneficio--p--title {
+    font-family: frankest;
+}
+
+.beneficio--p--conteudo {
+    font-family: caecilians;
+}
+
 .buttonEbook {
     text-align: center;
     width: 50%;
     background: url(../images/fundobutton.png);
     border-radius: 50px;
+    font-family: frankest;
 }
 
 footer {
