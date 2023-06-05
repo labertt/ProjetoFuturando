@@ -6,12 +6,23 @@ body {
     flex-direction: column;
 }
 
+@font-face{
+    font-family: frankest;
+    src: url(../fonts/frankest-serif-regular.ttf);
+}
+
+@font-face {
+    font-family: caecilians;
+    src: url(/fonts/pmncaeciliasans-head-regular.otf);
+}
+
+
 .cabecalho {
     text-align: center;
 }
 
 .cabecalho, h1 {
-    font-family: 'Frankest Serif';
+    font-family: caecilians;
 }
 
 .logofuturando {
