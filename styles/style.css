@@ -105,6 +105,11 @@ footer {
 
 .textandtext{
     width: 450px;
+    font-family: caecilians;
+}
+
+.aprenda--taro {
+    font-family: frankest;
 }
 
 .img--box img{
@@ -135,6 +140,34 @@ footer {
     background-color: red;
     width: 20%;
     height: 20%;
+}
+
+.depoimento--title {
+    font-family: caecilians;
+}
+
+.depoimento--subtitle {
+    font-family: frankest;
+}
+
+.perguntas--title {
+    font-family: caecilians;
+}
+
+.perguntas {
+    font-family: caecilians;
+}
+
+.futurandorodape {
+    font-family: caecilians;
+}
+
+.rapcrodape {
+    font-family: caecilians;
+}
+
+.termos--de--uso {
+    font-family: caecilians;
 }
 
 @media (max-width: 760px){
