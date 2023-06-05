@@ -21,26 +21,7 @@ body {
     text-align: center;
 }
 
-.titlefuturando {
-    font-family: frankest;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 65px;
-    color: #1C1B1B;
-}
-
-.cabecalhop {
-    font-family: caecilians;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 40px;
-    text-transform: capitalize;
-    color: #5B5E49;
-}
-
-.beneficios--title {
+.cabecalho, h1 {
     font-family: caecilians;
 }
 
@@ -154,4 +135,54 @@ footer {
     background-color: red;
     width: 20%;
     height: 20%;
+}
+
+@media (max-width: 760px){
+
+    .cabecalho{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .vinteeduascartas{
+        margin: 0;
+        margin-left: 30px;
+        width: 80%;
+    }
+
+    .beneficios--box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buttonEbook {
+        text-align: center;
+        width: 100%;
+        background: url(../images/fundobutton.png);
+        border-radius: 50px;
+    }
+
+    .img-and-text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img--box img{
+        width: 80%;
+        margin-left: 30px;
+    }
+
+    .textandtext{
+        width: 100%;
+        text-align: justify;
+    }
+    
+
+    
 }
