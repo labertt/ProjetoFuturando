@@ -1,5 +1,9 @@
 body {
     background-image: url(../images/fundo.png);
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    flex-direction: column;
 }
 
 .cabecalho {
@@ -19,10 +23,35 @@ body {
     margin-left: 70px;
 }
 
-.buttonEbook {
-    position: absolute;
+.vsl--box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.beneficios--title{
+    text-align: center;
+}
+
+.beneficios--box{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
     width: 100%;
 
+}
+
+.beneficio--item{
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+.buttonEbook {
+    text-align: center;
+    width: 50%;
     background: url(../images/fundobutton.png);
     border-radius: 50px;
 }
@@ -38,4 +67,52 @@ footer {
 
 .rapcrodape, img {
     width: 20%;
+}
+
+.conteudo--box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-and-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.textandtext{
+    width: 450px;
+}
+
+.img--box img{
+    width: 550px;
+}
+
+.depoimento--box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.depoimento--box h2, .depoimento--box h3{
+    display: flex;
+    justify-content: flex-start;
+}
+.depoimentos-items{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.depoimento{
+    background-color: red;
+    width: 20%;
+    height: 20%;
 }
